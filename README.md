@@ -69,17 +69,17 @@
      不透明度: 0。2;
         }
 
-     /* 画像ホバ */
-     。zoom-img-container {オーバーフロー: 非表示； }
-     。zoom-img-container img { 遷移: 1s cubic-bezier(0。2, 1, 0。3, 1) を変換します。}
-     。zoom-img-container:hover img {変換: scale(1。1); }
-    </スタイル>
-</頭>
-<体 クラス=「カーソルなし選択:bgアクセント選択:テキストホワイト」>
+        /* 画像ホバー */
+        .zoom-img-container { overflow: hidden; }
+        .zoom-img-container img { transition: transform 1s cubic-bezier(0.2, 1, 0.3, 1); }
+        .zoom-img-container:hover img { transform: scale(1.1); }
+    </style>
+</head>
+<body class="cursor-none selection:bg-accent selection:text-white">
 
-    <div class="カーソル"></div>
+    <div class="cursor"></div>
     
-    <div class="グリッド線">
+    <div class="grid-lines">
         <div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div>
     </div>
 
@@ -198,11 +198,11 @@
             </div>
         </section>
 
-        <footer class="py-32 px-8 bg-text text-bg">
-            <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-end">
-                <div>
-                    <h2 class="text-5xl md:text-7xl font-bold mb-6 tracking-tighter">Good Design<br>is Invisible.</h2>
-                    <p class="text-white/60 font-mono text-sm">
+     <footer class="py-32 px-8 bg-text text-bg">
+     <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-end">
+     <分割>
+     <h2 class="text-5xl md:text-7xl font-bold mb-6 tracking-tighter">テキスト-5xl md:text-7xl font-bold mb-6 tracking-tighter">テキスト-5xl md:text-7xl font-bold mb-6 tracking-tighter。</h2>
+     <p class="text-white/60 font-mono text-sm">
      次回あやあやあやあやあやあ。たんんんんんちゃん機会ちょう。
      </p>
      </分割>
@@ -223,9 +223,9 @@
      });
      関数 raf（時間）{
      カツカ。raf（時間）;
-     エ・エ・エ・エ（エ・エ）
+     エ・エ・エ・エ（エ・エ）;
         }
-     エ・エ・エ・エ（エ・エ）
+     エ・エ・エ・エ（エ・エ）;
 
      // 2。GSAP
      gsap。registerPlugin（ScrollTrigger）;
@@ -239,14 +239,14 @@
      gsap。・・・・・。toArray('記事')。forEach（記事 => {
      gsap。from（記了、{
      むつむつむつ: {
-     記了: 記了
+     記事: 記事、
      開始: 「上位85%」、
      },
      y: 30、不透明度: 0、持続時間: 1、ーズ: "power2。外た
      });
      });
 
-     // 3。むむむむ
+     // 3。むちむち
      const = コン。querySelector(".cursor");
      const hoverables = ホバラブル。querySelectorAll(".hoverable");
 
@@ -261,7 +261,7 @@
 
      ・・・・・。forEach（el => {
      エル。addEventListener("mouseenter", () => イベントリスナー。体。クススト。add("オ"));
-     エル。addEventListener("mouseleave", () => マウスブ。体。クススト。削除("ンンンンン"));
+     エル。addEventListener("mouseleave", () => マウスブ。体。クススト。削除("カンカンカン"));
      });
     </やれやれ>
 </体>
